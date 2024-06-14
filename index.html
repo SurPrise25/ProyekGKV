@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Plot line Chart menggunakan Barplot Javascript</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <style>
+            body {
+                background-image: url('image.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="barplot"></div>
+        <img src="corn.jpeg" alt="Corn Icon" style="position: absolute; top: 55%; left: 44%; width: 50px; height: 50px; cursor: pointer;" onclick="showCornGraph()">
+        <img src="rice.jpeg" alt="Rice Icon" style="position: absolute; top: 55%; left: 48%; width: 50px; height: 47px; cursor: pointer;" onclick="showRiceGraph()">
+        <img src="kedelai.jpeg" alt="Kedelai Icon" style="position: absolute; top: 55%; left: 52%; width: 50px; height: 50px; cursor: pointer;" onclick="showKedelaiGraph()">
+        <img src="back.jpeg" alt="Back Icon" style="position: absolute; top: 56%; left: 56%; width: 36px; height: 36px; cursor: pointer;" onclick="showAll()">
+        <script src = "bar.js"></script>
+    </body>
+</html>
